@@ -73,7 +73,7 @@ blocks:
   id: variable
   parameters:
     comment: ''
-    value: '100000'
+    value: '32000'
   states:
     bus_sink: false
     bus_source: false
@@ -208,7 +208,7 @@ blocks:
     ant7: ''
     ant8: ''
     ant9: ''
-    args: '"hackrf=1"'
+    args: '"hackrf=0"'
     bb_gain0: '30'
     bb_gain1: '20'
     bb_gain10: '20'

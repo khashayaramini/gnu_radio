@@ -118,7 +118,7 @@ class file_source(gr.top_block, Qt.QWidget):
         self._qtgui_freq_sink_x_0_win = sip.wrapinstance(self.qtgui_freq_sink_x_0.qwidget(), Qt.QWidget)
         self.top_layout.addWidget(self._qtgui_freq_sink_x_0_win)
         self.osmosdr_sink_0 = osmosdr.sink(
-            args="numchan=" + str(1) + " " + "hackrf=1"
+            args="numchan=" + str(1) + " " + "hackrf=0"
         )
         self.osmosdr_sink_0.set_time_now(osmosdr.time_spec_t(time.time()), osmosdr.ALL_MBOARDS)
         self.osmosdr_sink_0.set_sample_rate(samp_rate)
